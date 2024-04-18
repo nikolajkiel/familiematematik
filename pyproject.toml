@@ -13,3 +13,8 @@ requires-python = ">=3.10.0"
 description = "Familiematematik"
 
 dynamic = ["dependencies"]
+
+[tool.setuptools.packages.find]
+where = [
+    "src"
+]
