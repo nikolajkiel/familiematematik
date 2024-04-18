@@ -1,3 +1,4 @@
+# utf-8
 import svg
 WALL_THICKNESS = 0.1
 
@@ -173,7 +174,7 @@ Han = Room(2.5, 3.5, name="Hannibals værelse", location=(Max, 0))
 Alr = Room(7.8, 3.9, name="Alrum", location=(Han, 0), rect_kwargs={"fill": "blue"})
 Køk = Room(2.7, 3.5, name ="Køkken", location=(Han, Alr), rect_kwargs={"fill": "green"})
 Gan = Room(5.1, 1.5, name="Gang", location=(0, Max), rect_kwargs={"fill": "yellow"})
-Stu = Room(5, 3.9, name="Stue", location=(Alr, 0), rect_kwargs={"fill": "purple"})
+Stu = Room(5, 3.9, name="Stue", location=(Alr, 0), rect_kwargs={"fill": "#ffff00"})
 
 rooms = [Max, Han, Alr, Køk, Gan, Stu]
 for room in rooms:

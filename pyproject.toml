@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools >= 69.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "familiematematik"
+authors = [
+   { name = "Nikolaj Kiel", email = "nikolaj.kiel@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.10.0"
+description = "Familiematematik"
+
+dynamic = ["dependencies"]
