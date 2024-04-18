@@ -1,1 +1,1 @@
-from floor_plan import Room, FloorPlan
+from .floor_plan import Room, FloorPlan
